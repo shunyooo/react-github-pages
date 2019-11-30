@@ -1,13 +1,28 @@
 # React × GitHub Pages
 
-React × Github Pagesのテンプレート的な
+Template of React × Github Pages
 
-▼ デプロイ先
-https://shunyooo.github.io/react-pages/
+Open <HOMEPAGE> to view it in the browser.
+
+
+
+## Feature
+
+- Hosting Github Pages
+- Easy deploy
+- React (+typescript)
+
+
 
 ## Use as Template
 
-[ここのコード](https://github.com/shunyooo/react-pages/blob/master/package.json#L2)をレポジトリ名に変更してください
+####  `init.sh`
+
+- Rename app dir to top dir name
+- Change app settings for the current github repository
+- Build and deploy
+
+
 
 ## DEV
 
@@ -15,8 +30,10 @@ https://shunyooo.github.io/react-pages/
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+
+
 ## DEPLOY
 
 #### `npm run deploy`
 
-`gh-pages` ブランチにプッシュ & デプロイ
+Push & deploy to the `gh-pages` branch
