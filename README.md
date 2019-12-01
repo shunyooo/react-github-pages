@@ -1,10 +1,10 @@
 # React × GitHub Pages
 
-[<img src='https://user-images.githubusercontent.com/17490886/69910224-e75d2c80-144a-11ea-9bc2-18ddaebea4a8.png' width=170/>](https://github.com/shunyooo/react-github-pages/generate)
+[<img src='https://user-images.githubusercontent.com/17490886/69910224-e75d2c80-144a-11ea-9bc2-18ddaebea4a8.png' width=150/>](https://github.com/shunyooo/react-github-pages/generate)
 
 Template of React × Github Pages
 
-Open <HOMEPAGE> to view it in the browser.
+<HOMEPAGE>
 
 
 

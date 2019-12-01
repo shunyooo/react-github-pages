@@ -20,7 +20,8 @@ mv $FROM_APP $TO_APP
 
 # Update README.md <HOMEPAGE>
 echo Update README.md HOMEPAGE → $HOMEPAGE
-sed -i '' -e s@\<HOMEPAGE\>@${HOMEPAGE}@g README.md
+HPTEXT=HOMEPAGE→$HOMEPAGE
+sed -i '' -e s@\<HOMEPAGE\>@${HPTEXT}@g README.md
 
 # Change app settings for the current github repository
 echo Update ${TO_APP}/package.json ${FROM_APP} → ${TO_APP}
