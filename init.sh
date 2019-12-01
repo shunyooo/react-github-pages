@@ -20,14 +20,14 @@ mv $FROM_APP $TO_APP
 
 # Update README.md <HOMEPAGE>
 echo Update README.md HOMEPAGE → $HOMEPAGE
-sed -i -e s@\<HOMEPAGE\>@${HOMEPAGE}@g README.md
+sed -i '' -e s@\<HOMEPAGE\>@${HOMEPAGE}@g README.md
 
 # Change app settings for the current github repository
 echo Update ${TO_APP}/package.json ${FROM_APP} → ${TO_APP}
 echo Update ${TO_APP}/package.json ${FROM_USERNAME} → ${USERNAME}
 cd $TO_APP
-sed -i -e s/${FROM_APP}/${TO_APP}/g package.json
-sed -i -e s/${FROM_USERNAME}/${USERNAME}/g package.json
+sed -i '' -e s/${FROM_APP}/${TO_APP}/g package.json
+sed -i '' -e s/${FROM_USERNAME}/${USERNAME}/g package.json
 
 # build and deploy
 npm install
